@@ -24,8 +24,8 @@ You can fork this repo and modify the src code if you want to and distribute it.
 3. **<a href="https://tailwindcss.com" target="_blank" title="Vite">tailwindcss</a>**
 
 # Icons and assets sources:
-1. Icons pack:
-2. Technologies and frameworks:
-3. Vector graphics: 
+1. Icons pack: https://www.figma.com/community/file/1177180791780461401
+2. Technologies and frameworks: https://www.figma.com/community/file/1130969934918175259
+3. Vector graphics: https://www.figma.com/community/plugin/967114006118823084
 
 **Weather forecast is powered by&nbsp;<a href="https://www.weatherapi.com/" target="_blank" title="Free Weather API">WeatherAPI.com</a>**
