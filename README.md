@@ -20,7 +20,17 @@ You can fork this repo and modify the src code if you want to and distribute it.
 10. You can make changes to any and all of the files.
 
 # Hosting
-...
+## If you are hosting with **<a href="https://www.netlify.com/" target="_blank" title="netlify">netlify</a>**:
+1. create a netlify.toml file in your dist folder after running `npm run dev` and creating a build there and add this line of code in netlify.toml:<br><br>
+`[[redirects]]
+  from = "/*"
+  to = "/"
+  status = 200`
+## If you are hosting on github:
+1. Create a 404.html file in the directory where build is located. Add the text from this file into 404.html: **<a href="https://github.com/rafgraph/spa-github-pages/blob/gh-pages/404.html" target="_blank" title="404.html">404.html</a>**
+2. Add this line of code into your index.html file from this file: **<a href="https://github.com/rafgraph/spa-github-pages/blob/gh-pages/index.html#L21-L42" target="_blank" title="index.html text to copy">index.html text to copy</a>**
+3. Done : )
+3. For more follow this link: **<a href="https://github.com/rafgraph/spa-github-pages" target="_blank" title="more info">more info</a>**
 
 # Languages and frameworks used
 1. **<a href="https://vitejs.dev/" target="_blank" title="Vite">Vite</a>**
