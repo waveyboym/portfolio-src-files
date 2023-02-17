@@ -13,10 +13,11 @@ You can fork this repo and modify the src code if you want to and distribute it.
 3. Open a terminal to the folder where the files you downloaded from "portfolio-src-code" of this repo are
 4. Run `npm install`. If you don't have nodejs installed, this command wont work.
 5. Get an api key from https://www.weatherapi.com/ and place the key in the ".env" file in the root directory of the folder or if you don't want to use this api, you may disable it by navigating to: and following the instructions to disable it.
-6. (Optional)To change the loader's load time go to: and follow the instructions there.
-7. Once that is done and all the appropriate modules have been installed, you may run `npm run dev` in your terminal to launch the website on localhost
-8. You may run `npm run build` to build the website and the build files will be found in the "dist" folder
-9. You can make changes to any and all of the files
+6. After that is done navigate to: "src/sections/Landing.tsx" and on line 82 replace `<Your location here>` with the location you want to query.
+7. (Optional)To change the loader's load time go to: and follow the instructions there.
+8. Once that is done and all the appropriate modules have been installed, you may run `npm run dev` in your terminal to launch the website on localhost
+9. You may run `npm run build` to build the website and the build files will be found in the "dist" folder
+10. You can make changes to any and all of the files
 
 # Languages and frameworks used
 1. **<a href="https://vitejs.dev/" target="_blank" title="Vite">Vite</a>**
