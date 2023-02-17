@@ -5,7 +5,7 @@ Source Files for @ https://waveyboym.github.io/
 
 
 # TL;DR
-You can fork this repo and modify it if you want to. Just please give me proper credit by linking back to this repo as src. Thanks!
+You can fork this repo and modify the src code if you want to and distribute it. Just please be sure to give proper credit by linking back to this repo as original src. Thanks!
 
 # Languages and frameworks used
 1. **<a href="https://vitejs.dev/" target="_blank" title="Vite">Vite</a>**
