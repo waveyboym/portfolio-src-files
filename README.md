@@ -19,6 +19,9 @@ You can fork this repo and modify the src code if you want to and distribute it.
 9. You may run `npm run build` to build the website and the build files will be found in the "dist" folder
 10. You can make changes to any and all of the files
 
+# Hosting
+...
+
 # Languages and frameworks used
 1. **<a href="https://vitejs.dev/" target="_blank" title="Vite">Vite</a>**
 2. **<a href="https://reactjs.org" target="_blank" title="reactjs">Reactjs</a>** with **<a href="https://www.typescriptlang.org/" target="_blank" title="typescript">Typescript</a>**
