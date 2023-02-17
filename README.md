@@ -9,15 +9,15 @@ You can fork this repo and modify the src code if you want to and distribute it.
 
 # How to use the src code
 1. Download nodejs onto your computer if you don't have it from here (else skip this step): https://nodejs.org/en/download/
-2. Download the files in the directory "portfolio-src-code" of this repo and place these files in a folder of your naming 
-3. Open a terminal to the folder where the files you downloaded from "portfolio-src-code" of this repo are
-4. Run `npm install`. If you don't have nodejs installed, this command wont work.
-5. Get an api key from https://www.weatherapi.com/ and place the key in the ".env" file in the root directory of the folder or if you don't want to use this api, you may disable it by navigating to: and following the instructions to disable it.
-6. After that is done navigate to: "src/sections/Landing.tsx" and on line 82 replace `<Your location here>` with the location you want to query.
-7. (Optional)To change the loader's load time go to: and follow the instructions there.
+2. Download the files in the directory **<a href="https://github.com/waveyboym/portfolio-src-files/tree/main/portfolio-src-code" target="_blank" title="portfolio-src-code">portfolio-src-code</a>** of this repo and place these files in a folder of your naming.
+3. Open a terminal to the folder where the files you downloaded from **<a href="https://github.com/waveyboym/portfolio-src-files/tree/main/portfolio-src-code" target="_blank" title="portfolio-src-code">portfolio-src-code</a>** of this repo are.
+4. Run `npm install`. If you don't have  **<a href="https://nodejs.org/en/download/" target="_blank" title="nodejs">nodejs</a>** installed, this command wont work.
+5. Get an api key from https://www.weatherapi.com/ and place the key in the ".env" file in the root directory of the folder or if you don't want to use this api, you may disable it by navigating to: **<a href="https://github.com/waveyboym/portfolio-src-files/blob/main/portfolio-src-code/disableAPI.txt" target="_blank" title="disable api">disable api</a>** and following the instructions to disable it.
+6. After that is done navigate to: **<a href="https://github.com/waveyboym/portfolio-src-files/blob/main/portfolio-src-code/src/sections/Landing.tsx" target="_blank">"src/sections/Landing.tsx"</a>** and on line 82 replace `<Your location here>` with the location you want to query.
+7. (Optional)To change the loader's load time go to: **<a href="https://github.com/waveyboym/portfolio-src-files/blob/main/portfolio-src-code/changeLoaderTime.txt" target="_blank" title="change loader time">change loader time</a>** and follow the instructions there.
 8. Once that is done and all the appropriate modules have been installed, you may run `npm run dev` in your terminal to launch the website on localhost
-9. You may run `npm run build` to build the website and the build files will be found in the "dist" folder
-10. You can make changes to any and all of the files
+9. You may run `npm run build` to build the website and the build files will be found in the "dist" folder.
+10. You can make changes to any and all of the files.
 
 # Hosting
 ...
