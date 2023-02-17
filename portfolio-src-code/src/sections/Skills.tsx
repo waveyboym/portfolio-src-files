@@ -71,7 +71,7 @@ const Skills = () => {
                         )}
                     </div>
                 </div>
-                <div className="mxtablet:mt-[30px] mxtablet:w-[1px] mxtablet:h-[164px] mxtablet:bg-gray90050"/>
+                <div className="mxtablet:mt-[100px] mxtablet:mt-[30px] mxtablet:w-[1px] mxtablet:h-[164px] mxtablet:bg-gray90050"/>
                 <div className="max-w-[340px] min-h-[260px] mxtablet:min-w-[340px]">
                     <h1 className="text-white_900 font-bold text-center mt-[20px] text-[24px]">frameworks</h1>
                     <div className="max-w-[340px] flex flex-wrap mt-[70px]">
@@ -106,7 +106,7 @@ const Skills = () => {
                         )}
                     </div>
                 </div>
-                <div className="mxtablet:mt-[30px] mxtablet:w-[1px] mxtablet:h-[164px] mxtablet:bg-gray90050"/>
+                <div className="mxtablet:mt-[100px] mxtablet:mt-[30px] mxtablet:w-[1px] mxtablet:h-[164px] mxtablet:bg-gray90050"/>
                 <div className="max-w-[340px] min-h-[260px] mxtablet:min-w-[340px]">
                     <h1 className="text-white_900 font-bold text-center mt-[20px] text-[24px]">ide's/text editors</h1>
                     <div className="max-w-[340px] flex flex-wrap mt-[70px]">
