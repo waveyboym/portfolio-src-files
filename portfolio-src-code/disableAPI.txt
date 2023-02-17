@@ -1,0 +1,9 @@
+To disable the api:
+1. Navigate to "./src/sections/Landing.tsx"
+2. Once there, scroll to line 101 and comment out the code -> "fetchData();"
+3. uncomment the code below it between. lines 103 and 105(inclusive)
+    Currently the loader runs for a minimum of 4 seconds however this can be changed to suit your needs.
+4. You can proceed to change code that may have relied on the api. 
+5. Files that use or make reference to the api include:
+ - Navigate to "./src/sections/Landing.tsx" lines 14 - 99 (inclusive)
+ - Navigate to "./src/sections/Footer.tsx" line 22

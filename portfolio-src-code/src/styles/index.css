@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-primary-nh {
+    @apply pt-[2px] pb-[2px] pl-[4px] pr-[4px] cursor-pointer text-white_900 text-[20px] font-medium mr-[10px] mt-[5px] mb-[5px] ml-[10px] rounded-[20px] bg-black_90010 border border-solid border-gray_90050 backdrop-blur-xll
+  }
+
+  .btn-primary-h {
+    @apply pt-[2px] pb-[2px] pl-[4px] pr-[4px] cursor-pointer text-white_900 text-[20px] font-medium mr-[10px] mt-[5px] mb-[5px] ml-[10px] hover:rounded-[20px] border border-transparent hover:bg-black_90010 hover:border-solid hover:border-gray_90050 hover:backdrop-blur-xll
+    }
+}
+
+@media (min-width: 1280px) { 
+  /*scrollbars*/
+  ::-webkit-scrollbar { 
+    width: 6px; 
+    z-index: 5000;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    border-radius: 15px;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    z-index: 5000;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #535353;
+    border-radius: 15px;
+    z-index: 5000;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #0C0015;
+    z-index: 5000; 
+  }
+
+  /* Handle on active */
+  ::-webkit-scrollbar-thumb:active {
+    background: #0C0015;
+    z-index: 5000; 
+  }
+}
+
+:root {font-family: 'Source Code Pro', monospace; background: #0C0015;}
+
+.outlined-text{
+  -webkit-text-stroke: 1px #8033CE;
+  -webkit-text-fill-color: transparent;
+}
+
+html{background: #0C0015; width: 100vw; overflow-x: hidden; overflow: overlay;}
+
+a{text-decoration: none; color: #D9D9D9;}
+
+/**
+*This changes the colour of the text in the pagination buttons on the /projects page imported from Material UI
+*location from this file <index.css>: ../pages/Projects.tsx
+*/
+.MuiButtonBase-root{
+  color: #D9D9D9 !important;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100vw;
+  overflow-x: hidden;
+  background: #0C0015;
+}

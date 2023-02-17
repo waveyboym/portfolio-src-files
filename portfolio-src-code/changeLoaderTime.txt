@@ -1,0 +1,7 @@
+To change how long the loader runs for:
+1. Navigate to  these four files: "./src/sections/Landing.tsx" line 10, "./src/pages/Projects.tsx" line 10,
+ "./src/pages/Errorpage.tsx" line 7, "./src/components/Navbar.tsx" line 5
+2. There is a variable named delaytime structured like so: "const delaytime: number = 4000;"
+3. Change that value to a number that suits you. The value is in milliseconds. Note that in "./src/components/Navbar.tsx" line 5,
+the value is actually in seconds hence "const delaytime: number = 4.5;". There is a delay of 500ms on top of the original 4000ms
+so that the transition of the Navbar.tsx can be seen onload. So if delaytime is changed to 2000, then it should be changed to 2.5 in Navbar.tsx
