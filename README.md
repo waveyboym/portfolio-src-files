@@ -2,7 +2,7 @@
 Source Files for @ https://waveyboym.github.io/
 
 # Presentation
-
+![devices mockup](presentation/mockups.png "devices mockup")
 
 # TL;DR
 You can fork this repo and modify the src code if you want to and distribute it. Just please be sure to give proper credit by linking back to this repo as original src. Thanks!
