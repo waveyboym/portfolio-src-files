@@ -26,7 +26,7 @@ You can fork this repo and modify the src code if you want to and distribute it.
   from = "/*"
   to = "/"
   status = 200`
-## If you are hosting on github:
+## If you are hosting on **<a href="https://github.com/" target="_blank" title="github">github</a>**:
 1. Create a 404.html file in the directory where build is located. Add the text from this file into 404.html: **<a href="https://github.com/rafgraph/spa-github-pages/blob/gh-pages/404.html" target="_blank" title="404.html">404.html</a>**
 2. Add this line of code into your index.html file from this file: **<a href="https://github.com/rafgraph/spa-github-pages/blob/gh-pages/index.html#L21-L42" target="_blank" title="index.html text to copy">index.html text to copy</a>**
 3. Done : )
