@@ -99,7 +99,7 @@ const Landing: FunctionComponent<LandingPageProps> = ({turnOffLoading}) => {
         }
 
         fetchData();
-        /**uncomment this code:
+        /**uncomment this code if you plan on not calling fetchData():
          *  const endtime = new Date();
             const waittime = delaytime - (endtime.getMilliseconds() - starttime.getMilliseconds());
             setTimeout(() => {  turnOffLoading(); }, waittime >= 0 ? waittime : 0);
