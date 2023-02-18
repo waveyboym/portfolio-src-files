@@ -110,12 +110,12 @@ const Landing: FunctionComponent<LandingPageProps> = ({turnOffLoading}) => {
         <div className="w-screen flex flex-col items-center overflow-x-hidden" id="landing">
             <div className="w-screen h-[50px]"/>
             <h1 className="text-white_900 mt-[10vh] mxtablet:mt-[20vh] mxdesktop1280:mt-[20px] font-black text-[64px]">Hi I'm</h1>
-            <h1 className="outlined-text ml-[10px] mt-[-20px] font-black text-[64px]">Michael</h1>
-            <h1 className="text-white_900 mt-[-90px] font-black text-[64px]">Michael</h1>
+            <h1 className="outlined-text ml-[10px] mt-[-20px] font-black text-[64px]">{/**Your name goes here*/}</h1>
+            <h1 className="text-white_900 mt-[-90px] font-black text-[64px]">{/**Your name goes here*/}</h1>
 
             <div className="flex flex-wrap mt-[30px] mxtablet:mt-[70px] mxdesktop1280:mt-[30px] ml-[12px] mr-[12px]">
                 <h2 className="text-white_900 font-bold text-[24px]">Software engineer</h2>
-                <h3 className="text-white_900 font-medium text-[20px] ml-[4px] mt-[4px]">from South Africa,</h3>
+                <h3 className="text-white_900 font-medium text-[20px] ml-[4px] mt-[4px]">from {/**Your place of operations goes here*/},</h3>
             </div>
             <h3 className="text-white_900 font-medium text-[20px] mxtablet:max-w-[60%] ml-[12px] mr-[12px]">
                 I enjoy making all types of projects from frontend web development projects to low level systems projects
