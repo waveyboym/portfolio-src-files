@@ -47,7 +47,7 @@ const Navbar = () => {
                             whileHover={{scale: 1.03}}
                             whileTap={{scale: 0.9}}
                         >
-                            Michael
+                            {/**Your name goes here*/}
                         </motion.h1>
                     </HashLink>
                     <div className="items-center hidden xl:flex">
