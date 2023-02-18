@@ -7,7 +7,7 @@ const Footer = () => {
     return (
         <div className="w-screen flex flex-col items-center overflow-x-hidden h-[180px] rounded-t-[20px]
         bg-black_90010 border-t border-solid border-gray_90050 backdrop-blur-xll">
-            <h1 className="text-white_900 font-medium text-[20px] mt-[30px]">Michael</h1>
+            <h1 className="text-white_900 font-medium text-[20px] mt-[30px]">{/** Your name goes here*/}</h1>
 
             <motion.div className="rounded-full bg-white900 w-[150px] h-[40px] cursor-pointer
                 flex justify-center items-center text-black_900 ml-auto mr-auto mt-[15px] font-medium text-[16px]"
